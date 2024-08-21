@@ -1,0 +1,15 @@
+.button {
+}
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.points {
+  display: flex;
+  margin-top: 200px;
+  margin-right: 100px;
+  justify-content: end;
+}
