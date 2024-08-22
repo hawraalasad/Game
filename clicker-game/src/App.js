@@ -4,15 +4,13 @@ import Points from "./Components.jsx/Points";
 import Upgrades from "./Components.jsx/Upgrades";
 import Count from "./Components.jsx/Count";
 import "./css/main.css";
-import Footer from "./Components.jsx/Footer";
+
 import Grass from "./Components.jsx/Grass";
 
 function App() {
   const [count, setCount] = useState(0);
   const [show, setShow] = useState(true);
-  const [upgrade, setUpgrade] = useState(0);
-  const [secondUpgrade, setSecondUpgrade] = useState(0);
-  const [thirdUpgrade, setThirdUpgrade] = useState(0);
+
   const [points, setPoints] = useState(0);
   const [i, seti] = useState(1);
   const getUpgrade = (count) => {
@@ -72,7 +70,7 @@ function App() {
           <br></br>
         </div>
       </div>
-      {/* <Footer /> */}
+
       <div
         style={{
           width: "100%",

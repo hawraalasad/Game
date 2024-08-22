@@ -1,5 +1,4 @@
 import React from "react";
-import Points from "./Points";
 
 const Button = ({ count, add, addPoints }) => {
   return (

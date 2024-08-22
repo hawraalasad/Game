@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import image from "../assets/beb2c40a8ab90378713bd09496e61950.png";
 
 const Points = ({ points }) => {

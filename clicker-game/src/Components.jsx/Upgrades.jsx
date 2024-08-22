@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 const Upgrades = ({
   count,
-  getUpgrade,
   points,
   setPoints,
   activateUpgrade,
