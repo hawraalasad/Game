@@ -1,15 +1,61 @@
 .button {
+  width: 300px;
+  height: 80px;
+  border-radius: 20px;
+  border: none;
+  background-color: #734200;
+  color: #fbe263;
+  margin: 10px;
 }
+.upgrade-button {
+  width: 320px;
+  height: 70px;
+  border-radius: 20px;
+  border: none;
+  background-color: #734200;
+  color: #fbe263;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  background-color: #6c8107;
+}
+.upgrade-button:hover {
+  background-color: #6c8107;
+}
+
 .main-div {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 70vh;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 .points {
   display: flex;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-right: 100px;
   justify-content: end;
+  width: 90vw;
+}
+.page {
+  background-color: #fbe263;
+  min-height: 100vh;
+  margin-top: 0px;
+  color: #734200;
+}
+.upgrade-div {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  width: 100vw;
+}
+.flower {
+  width: 70px;
+}
+.points-div {
+  display: flex;
 }
