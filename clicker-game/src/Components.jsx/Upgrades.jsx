@@ -8,10 +8,6 @@ const Upgrades = ({
   activateSecondUpgrade,
   activateThirdUpgrade,
 }) => {
-  const handle = () => {
-    setPoints(points - 60);
-  };
-
   const [show1, setShow1] = useState(true);
   const [show2, setShow2] = useState(true);
   const [show3, setShow3] = useState(true);
